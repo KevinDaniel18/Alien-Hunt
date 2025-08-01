@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* o el tamaño que prefieras */
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  span {
+    font-size: 0.9em; /* escala relativa */
+  }
+}
